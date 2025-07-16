@@ -79,9 +79,21 @@ It includes:
 
 <img src="Screenshots/1- VPC set up.png" width="750">
 
+### Parsec Game Running
+
+<img src="Screenshots/9.1-Palworld is running.png" width="750">
+
 ### CloudWatch
 
-<img src="Screenshots/Alarm idle 30 triggered and  lambda sent 0 to metrics to bring alarms to OK state.png" width="750">
+<img src="Screenshots/idle 15 alarm metric went off.png" width="750">
+
+### SNS Email Notification
+
+<img src="Screenshots/SNS idle 15 email.png" width="750">
+
+### Auto Shutdown Proof
+
+<img src="Screenshots/Log Events - Lambda.png" width="750">
 
 ---
 
