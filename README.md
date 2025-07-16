@@ -107,12 +107,5 @@ For a detailed step-by-step walkthrough and troubleshooting, see [BUILD-JOURNAL.
 `AWS` `EC2` `Cloud Gaming` `Spot Instances` `Parsec` `CloudWatch` `Lambda`
 
 
-<img src="Screenshots/1- VPC set up.png" width="750">
-
-
-``` bash
-
-``` 
-
 ## 🧑‍💻 Author
 👋 Milos Faktor 💼 [LinkedIn](https://www.linkedin.com/in/milos-faktor-78b429255/)
