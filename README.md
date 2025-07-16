@@ -40,29 +40,29 @@ It includes:
 
 ## 📝 Setup Summary
 
-### 1️⃣ VPC Setup
+### 1. VPC Setup
 - Created a dedicated **Gaming VPC** (`10.50.0.0/20`) in `eu-north-1` region with 3 public subnets.
 - Added an **S3 VPC Endpoint** for direct snapshot access.
 
-### 2️⃣ Security Groups
+### 2. Security Groups
 - Configured inbound rules for RDP (TCP 3389) and Parsec (UDP 8000–8200).
 
-### 3️⃣ EC2 Instance Configuration
+### 3. EC2 Instance Configuration
 - Launched **g4dn.xlarge** GPU instance with **Windows Server 2019 Base**.
 - Requested vCPU limit increase for GPU instances.
 - Attached Elastic IP for stable external connectivity.
 
-### 4️⃣ Parsec Setup & Troubleshooting
+### 4. Parsec Setup & Troubleshooting
 - Used Parsec Cloud Preparation Tool from GitHub.
 - Resolved GPU driver and resolution issues (Nvidia driver version **538.67**).
 - Fixed Parsec login and encoding issues.
 
-### 5️⃣ Spot Instances & Cost Optimization
+### 5. Spot Instances & Cost Optimization
 - Created AMI image of configured EC2 instance.
 - Deployed Spot Fleet across 3 AZs with 9 instance pools.
 - Automated assignment of correct Security Groups using Launch Templates.
 
-### 6️⃣ Automation: CloudWatch & Lambda
+### 6. Automation: CloudWatch & Lambda
 - Created custom CloudWatch metric `IdleState`.
 - Set alarms for 15 min (warning) & 30 min (auto-shutdown).
 - Lambda reduces Spot Fleet capacity to 0 on idle.
