@@ -75,11 +75,11 @@ It includes:
 
 ## 🖼️ Screenshots
 
-| Custom VPC Setup | CloudWatch Automation |
-|-------------------|------------------------|
-| ![VPC Screenshot](Screenshots/1- VPC set up.png) | ![CloudWatch](Screenshots/cloudwatch-alarms.png) |
+### VPC Screenshot
 
 <img src="Screenshots/1- VPC set up.png" width="750">
+
+### CloudWatch
 
 <img src="Screenshots/Alarm idle 30 triggered and  lambda sent 0 to metrics to bring alarms to OK state.png" width="750">
 
