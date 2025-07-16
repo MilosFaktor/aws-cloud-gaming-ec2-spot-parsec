@@ -6,7 +6,7 @@
 
 ## Diagram
 
-<img src="screenshots/1- VPC set up.png" width="750">
+<img src="Screenshots/1- VPC set up.png" width="750">
 
 
 ``` bash
