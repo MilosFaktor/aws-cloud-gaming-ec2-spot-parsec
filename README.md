@@ -1,4 +1,4 @@
-### Do you want to see all screenshots from project? 
+### Do you want to see all screenshots from this project? 
 👉 [All screenshots](Screenshots/)
 
 ### Want the full build journey with errors, fixes, lessons, and AWS tweaks?  
