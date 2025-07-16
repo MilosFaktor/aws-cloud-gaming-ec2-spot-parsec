@@ -2,7 +2,7 @@
 👉 [All screenshots](Screenshots/)
 
 ### Want the full build journey with errors, fixes, lessons, and AWS tweaks?  
-👉 [BUILD-JOURNAL.md](docs/BUILD-JOURNAL.md)
+👉 [BUILD-JOURNAL.md](BUILD-JOURNAL.md)
 
 ## Diagram
 
