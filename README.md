@@ -7,7 +7,7 @@
 # AWS Cloud Gaming with EC2, Spot Instances & Parsec – Automatic Shutdown
 
 ## 📖 Description
-This project demonstrates how to deploy a **GPU-powered Windows Server EC2 instance** for cloud gaming using **Parsec**, with a cost-optimized setup leveraging **Spot Instances**, automated idle detection, and shutdown workflows using **CloudWatch** and **Lambda**.
+This project was born out of my own curiosity to see if cloud gaming could be achieved on AWS. I designed and built a **GPU-powered Windows Server EC2 setup** from scratch for running **Parsec**, integrating cost optimization with **Spot Instances** and automation workflows using **CloudWatch** and **Lambda**.
 
 It includes:
 - A custom **VPC** setup for gaming workloads.
