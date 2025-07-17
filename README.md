@@ -2,7 +2,7 @@
 👉 [All screenshots](Screenshots/)
 
 ### Want the full build journey with errors, fixes, lessons, and AWS tweaks?  
-👉 [BUILD-JOURNAL.md](BUILD-JOURNAL.md)
+👉 [BUILD-JOURNAL.md](docs/BUILD-JOURNAL.md)
 
 # AWS Cloud Gaming with EC2, Spot Instances & Parsec – Automatic Shutdown
 
@@ -98,7 +98,7 @@ It includes:
 ---
 
 ## 📚 Build Journal
-For a detailed step-by-step walkthrough and troubleshooting, see [BUILD-JOURNAL.md](BUILD-JOURNAL.md).
+For a detailed step-by-step walkthrough and troubleshooting, see [BUILD-JOURNAL.md](docs/BUILD-JOURNAL.md).
 
 ---
 
