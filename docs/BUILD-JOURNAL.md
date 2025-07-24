@@ -1,5 +1,5 @@
 ### Do you want to see all screenshots from this project? 
-👉 [All screenshots](Screenshots/)
+👉 [All screenshots](../Screenshots/)
 
 # 🛠️ Build Journal: AWS Cloud Gaming EC2 + Spot Instances + Parsec
 
@@ -30,7 +30,7 @@ To isolate gaming workloads, I created a dedicated VPC:
 
 **Screenshot:**
 
-<img src="Screenshots/1- VPC set up.png" width="750">
+<img src="../Screenshots/1- VPC set up.png" width="750">
 
 ---
 
@@ -47,7 +47,7 @@ Configured security rules to allow controlled access:
 
 **Screenshot:**
 
-<img src="Screenshots/2-Security Group.png" width="750">
+<img src="../Screenshots/2-Security Group.png" width="750">
 
 ---
 
@@ -77,7 +77,7 @@ Configured security rules to allow controlled access:
 
 **Screenshot:**
 
-<img src="Screenshots/3- Quotas EC2 instances.png" width="750">
+<img src="../Screenshots/3- Quotas EC2 instances.png" width="750">
 
 ---
 
@@ -100,9 +100,9 @@ Configured security rules to allow controlled access:
 
 **Screenshot:**
 
-<img src="Screenshots/4.1-RDP connect.png" width="750">
+<img src="../Screenshots/4.1-RDP connect.png" width="750">
 
-<img src="Screenshots/4.3-first log in .png" width="750">
+<img src="../Screenshots/4.3-first log in .png" width="750">
 
 ---
 
@@ -142,7 +142,7 @@ Configured security rules to allow controlled access:
 
 **Screenshot:**
 
-<img src="Screenshots/7.4-Parsec connection-successfull.png" width="750">
+<img src="../Screenshots/7.4-Parsec connection-successfull.png" width="750">
 
 ---
 
@@ -170,7 +170,7 @@ Configured security rules to allow controlled access:
 
 **Screenshot:**
 
-<img src="Screenshots/9.1-Palworld is running.png" width="750">
+<img src="../Screenshots/9.1-Palworld is running.png" width="750">
 
 ---
 
@@ -184,7 +184,7 @@ Configured security rules to allow controlled access:
 
 **Screenshot:**
 
-<img src="Screenshots/10.0-AMI created.png" width="750">
+<img src="../Screenshots/10.0-AMI created.png" width="750">
 
 ### **b.** Spot Fleet Setup
 - Navigated to EC2 → *Spot Requests* → *Create Spot Fleet Request*.
@@ -207,9 +207,9 @@ Configured security rules to allow controlled access:
 
 **Screenshot:**
 
-<img src="Screenshots/11.1- Security group fixed.png" width="750">
+<img src="../Screenshots/11.1- Security group fixed.png" width="750">
 
-<img src="Screenshots/10.2-spot request fullfilled.png" width="750">
+<img src="../Screenshots/10.2-spot request fullfilled.png" width="750">
 
 ### ✅ Result
 - Successfully launched Spot Instance.
@@ -218,7 +218,7 @@ Configured security rules to allow controlled access:
 
 **Screenshot:**
 
-<img src="Screenshots/11.2- Spot savings.png" width="750">
+<img src="../Screenshots/11.2- Spot savings.png" width="750">
 
 ---
 
@@ -236,11 +236,11 @@ Automatically shut down Spot Instances when idle to further optimize costs.
 
 **Screenshot:**
 
-<img src="Screenshots/13.0 - Parsec scripts.png" width="750">
+<img src="../Screenshots/13.0 - Parsec scripts.png" width="750">
 
-<img src="Screenshots/13.1- ec2 aws cli cloudwatch testing.png" width="750">
+<img src="../Screenshots/13.1- ec2 aws cli cloudwatch testing.png" width="750">
 
-<img src="Screenshots/13.2-task scheduler.png" width="750">
+<img src="../Screenshots/13.2-task scheduler.png" width="750">
 
 2. **CloudWatch Alarms:**
    - **Idle_15_Alarm:**
@@ -252,9 +252,9 @@ Automatically shut down Spot Instances when idle to further optimize costs.
 
 **Screenshot:**
 
-<img src="Screenshots/15 miute alarm went off.png" width="750">
+<img src="../Screenshots/15 miute alarm went off.png" width="750">
 
-<img src="Screenshots/Alarm idle 30 triggered and  lambda sent 0 to metrics to bring alarms to OK state.png" width="750">
+<img src="../Screenshots/Alarm idle 30 triggered and  lambda sent 0 to metrics to bring alarms to OK state.png" width="750">
 
 3. **Lambda Function:**
    - Invoked by SNS topic.
@@ -268,7 +268,7 @@ Automatically shut down Spot Instances when idle to further optimize costs.
 
 **Screenshot:**
 
-<img src="Screenshots/Lambda permissions 1.png" width="750">
+<img src="../Screenshots/Lambda permissions 1.png" width="750">
 
 ### **c.** Testing & Validation
 - Verified CloudWatch metrics appear under `TestidleParsec/IdleState`.
@@ -280,13 +280,13 @@ Automatically shut down Spot Instances when idle to further optimize costs.
 
 **Screenshot:**
 
-<img src="Screenshots/SNS idle 30 email.png" width="750">
+<img src="../Screenshots/SNS idle 30 email.png" width="750">
 
-<img src="Screenshots/Log Events - Lambda.png" width="750">
+<img src="../Screenshots/Log Events - Lambda.png" width="750">
 
-<img src="Screenshots/Lambda triggered and modifying spot request.png" width="750">
+<img src="../Screenshots/Lambda triggered and modifying spot request.png" width="750">
 
-<img src="Screenshots/Instance shutting down.png" width="750">
+<img src="../Screenshots/Instance shutting down.png" width="750">
 
 ---
 
